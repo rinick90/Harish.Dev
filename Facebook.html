@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>facebook</title>
+    <style>
+        * {
+            padding: 0px;
+            margin: 0px;
+            box-sizing: border-box;
+        }
+
+        main {
+            /* border: 5px solid blue; */
+            height: 90vh;
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+        }
+
+        footer {
+            border: 1px solid black;
+            height: 10vh;
+            
+
+        }
+
+        .right {
+            border: 1px solid black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 40px;
+            font-size: 30px;
+        }
+
+        .right h4 {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .login {
+            /* border: 1px solid; */
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            gap: 30px;
+
+        }
+
+        .login input {
+            padding: 16px;
+            border-radius: 10px;
+            border: 1px solid gray;
+        }
+
+        .login input :hover {
+            border: 1px solid;
+        }
+
+        .login button {
+            padding: 10px;
+            border-radius: 20px;
+            cursor: pointer;
+
+        }
+
+        .lgn-bt {
+            border: none;
+            color: white;
+            background-color: rgb(53, 53, 157);
+        }
+
+        .fg-bt {
+            border: none;
+            background-color: white;
+            color: black;
+
+        }
+            
+        .fg-bt:hover {  
+            background-color: gainsboro;
+            border: 1px solid;
+        }
+
+        .cna-bt {
+            border: 1px solid rgb(53, 53, 157);
+            background-color: white;
+            color: rgb(53, 53, 157);
+        }
+
+        .cna-bt:hover {
+            background-color: gainsboro;
+            border: 1px solid;
+        }
+
+        .left {
+            /* border: 2px solid black; */
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+
+
+        }
+
+        .logo {
+            /* border: 1px solid; */
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            line-height: 50px;
+        }
+
+        .logo img {
+            /* border: 1px solid grey; */
+            width: 80px;
+            padding-top: 10px;
+
+
+
+        }
+
+        .logo h1 {
+            /* border: 1px solid grey; */
+            width: 25%;
+            font-size: 65px;
+            padding: 15px;
+            font-family: Arial, Helvetica, sans-serif;
+            /* word-wrap: break-word; */
+
+        }
+
+        
+
+        .img-tag img {
+            height: 90%;
+            width: 90%;
+        }
+
+        a{
+            text-decoration: none;
+            color: grey;
+           
+        }
+        ul{
+            border: 5px soldi rgb(134, 142, 134);
+            display: flex;
+            gap: 20px;
+            list-style-type: none;
+            justify-content: center;
+            line-height: 25px;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <div class="left">
+            <div class="logo">
+                <img src="https://1000logos.net/wp-content/uploads/2017/02/Facebook-Logosu.png" alt="">
+                <h1>EXPLO RE THE THINGS YOU LOVE</h1>
+            </div>
+            <div class="img-tag">
+                <img src="https://static.xx.fbcdn.net/rsrc.php/yb/r/HpEiFYDux5j.webp" alt="">
+            </div>
+
+        </div>
+        <div class="right">
+            <div class="login">
+                <h4>Login to facebook</h4>
+                <input type="text" placeholder="Email or Phone number">
+                <input type="password" placeholder="Enter password">
+                <button class="lgn-bt">Login</button>
+                <button class="fg-bt">forgotten password?</button>
+                <button class="cna-bt">Create new account</button>
+            </div>
+
+        </div>
+
+
+    </main>
+
+    <footer>
+       <ul>
+        <li><a href="">English</a></li>
+        <li><a href="">தமிழ்</a></li>
+        <li><a href="">తెలుగు</a></li>
+        <li><a href="">हिंदी</a></li>
+        <li><a href="">اردو</a></li>
+        <li><a href="">ಕನ್ನಡ</a></li>
+        <li><a href="">More Language</a></li>
+       </ul>
+       <ul>
+        <li><a href="">English</a></li>
+        <li><a href="">தமிழ்</a></li>
+        <li><a href="">తెలుగు</a></li>
+        <li><a href="">हिंदी</a></li>
+        <li><a href="">اردو</a></li>
+        <li><a href="">ಕನ್ನಡ</a></li>
+        <li><a href="">More Language</a></li>
+       </ul>
+
+    </footer>
+ 
+</body>
+
+</html>
