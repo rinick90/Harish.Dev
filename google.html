@@ -1,39 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        *{
+        * {
             padding: 0px;
             margin: 0px;
             box-sizing: border-box;
         }
 
-        header{
-            border: 1px solid blue;
+        header {
+            /* border: 1px solid blue; */
+            display: flex;
+            justify-content: space-between;
+            margin: 20px 40px;
+            font-weight: bold;
         }
-        
+
+        .left {
+            /* border: 1px solid green; */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+
+        }
+
+        .right {
+            /* border: 1px solid purple; */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+
+
+
+        }
+
+        .Menu {
+            border-radius: 50%;
+            width: 40px;
+        }
+
+        .user {
+            border-radius: 50%;
+            width: 40px;
+        }
+
+        a {
+            text-decoration: none;
+            color: black;
+            transition: text-decoration;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .logo {
+            width: 900px;
+        }
+        .searchbar{
+            border: 1px solid;
+            /* width: 30px; */
+        }
     </style>
 </head>
+
 <body>
     <header>
-        <div class="right">
-             <a href="">About</a>
-             <a href="">Store</a>
-            </div>
         <div class="left">
-            <a href="Gmail"></a>
+            <a href="">About</a>
+            <a href="">Store</a>
+        </div>
+        <div class="right">
+            <a href="">Gmail</a>
             <a href="">Image</a>
-            <img src="https://ssl.gstatic.com/gb/images/bar/al-icon.png" alt="">
-            <img src="https://lh3.google.com/u/0/ogw/AF2bZyizJuZbNr4jVw6EWiaayycsUC_G-3P2BkPrWkUqnkCyWw=s32-c-mo" alt="">
+            <img class="Menu" src="https://ssl.gstatic.com/gb/images/bar/al-icon.png" alt="">
+            <img class="user"
+                src="https://img.magnific.com/free-vector/user-circles-set_78370-4704.jpg?semt=ais_hybrid&w=740&q=80"
+                alt="">
         </div>
     </header>
     <main>
+        <img class="logo"
+            src="https://storage.googleapis.com/gd-prod/images/f4f4bc5f-904a-4b61-972f-c403bc060679.60c498c559810aa0.webp"
+            alt="">
+        <div class="searchbar">
+            <i class="fa-solid fa-plus"></i>
+            <input type="text">
+            <i class="fa-solid fa-microphone"></i>
+            <i class="fa-regular fa-camera"></i>
+        </div>
+
 
     </main>
     <footer></footer>
-    
+
 </body>
+
 </html>
